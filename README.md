@@ -1,1 +1,23 @@
-# multisig-evm-transactions
+# Multisig Transactions
+Welcome to our repository where we form transactions for signature in multisig. This process is critical for managing and maintaining the security of our network.
+
+# Repository Structure
+Each document in the repository contains information about a specific transaction. The documents are numbered in order (001, 002, 003, etc.), where the number corresponds to the senior transaction number in the multisig. Since we have different multisigs for each network, transaction numbers may not match across networks.
+
+Persons responsible for forming transactions is @artyukh or @AlekseiSmirnov .
+
+# Important Transaction Information
+Each transaction description contains data that you sign in your wallet. This data must be checked against the information specified in the corresponding document to ensure its accuracy.
+
+![image](https://github.com/debridge-finance/multisig-evm-transactions/assets/29544129/7fcc916a-27f7-4a2d-8078-979bee34a8c0)
+
+For each network, we provide three links:
+
+- **Gnosis Safe Tx**: This link leads to the transaction on the Gnosis Safe UI, where you can sign transaction.
+- **Tenderly**: The link to Tenderly allows you to view a simulation of this transaction to understand its impact on the protocol.
+- **Execution Tx**: This is a link to the execution transaction that becomes available when a consensus is reached.
+
+# Possible statuses
+🟡 - Pending  
+✅ - Done  
+❗️ - TODO  
