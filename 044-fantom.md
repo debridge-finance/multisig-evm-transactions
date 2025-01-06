@@ -1,4 +1,4 @@
-# 44. 🟡  Add new supported routers for CrosschainForwarder
+# 44. ✅  Add new supported routers for CrosschainForwarder
 Date of creation: 04.01.2025
 
 #### Add supported routers:
@@ -9,10 +9,10 @@ Fantom
 [- 0x161383b5dAFc1cc05Ec058e5B0b0703BA175bdA6 (paraswap)](https://developers.paraswap.network/augustus-swapper/augustus-v6.2#augustus-registry)   
 
 
-### 🟡  Fantom   
+### ✅  Fantom   
 
 ![image](https://github.com/user-attachments/assets/014cfd54-7e0d-474e-b716-64bd6301df03)
 
 [Gnosis Safe Tx](https://safe.fantom.network/transactions/tx?id=multisig_0xA52842cD43fA8c4B6660E443194769531d45b265_0xc61fa5f76c64d2b4d9dacc2a4812109f74e02827b483fa0fb91754e31f21baf9&safe=ftm:0xA52842cD43fA8c4B6660E443194769531d45b265)    
 [Tenderly](https://dashboard.tenderly.co/yaro/dln-prod/simulator/62117850-c43c-4746-801f-f6c53973f7d7/logs)    
-🟡  [Executed]()
+✅  [Executed](https://ftmscan.com/tx/0x0035ff16b4ade9b1ddaec57639a13f7c08b343ca14e058930d645b64e6c48690)
