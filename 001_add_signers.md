@@ -12,7 +12,8 @@ Date of creation: 15.03.2025
 - Ezil
 - 0xE9666D80e5617bA1470E2cA09F2D9B0C8CCd56B7
 
-
+You should check that the data is the same in your wallet   
+![image_2025-03-16_22-51-33](https://github.com/user-attachments/assets/39cfe532-0d6d-42f8-986b-efa2c5474961)
 
 Data to sign on LINEA/OPTIMISM 
 ```
