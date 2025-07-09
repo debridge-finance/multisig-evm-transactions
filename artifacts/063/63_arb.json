@@ -1,14 +1,14 @@
 {
     "version": "1.0",
-    "chainId": "1",
-    "createdAt": 1752069047857,
+    "chainId": "42161",
+    "createdAt": 1752098781406,
     "meta": {
         "name": "Transactions Batch",
         "description": "",
         "txBuilderVersion": "1.18.0",
-        "createdFromSafeAddress": "0x6bec1faF33183e1Bc316984202eCc09d46AC92D5",
+        "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
         "createdFromOwnerAddress": "",
-        "checksum": "0x28258ed53167cac70e52c06826c43c3eba97bc93b6dc6acc2aa8fe850756e871"
+        "checksum": "0xd5d3c7081cf7c73ff1cda05225e37cb865d40f70ac71fd6d6335f57db8e8f10e"
     },
     "transactions": [
         {
@@ -37,7 +37,7 @@
             }
         },
         {
-            "to": "0x391276932b5105C2DB8eE928dfd8872564d6d246",
+            "to": "0xC2bAC0DB5B18B0c3225581Ba14BD0B448c623636",
             "value": "0",
             "data": null,
             "contractMethod": {
@@ -321,6 +321,81 @@
             },
             "contractInputsValues": {
                 "_swapVariableFeeBps": "8"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0x6088d94C5a40CEcd3ae2D4e0710cA687b91c61d0",
+                "_isSupported": "true"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58",
+                "_isSupported": "true"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_router",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_allowanceAggregator",
+                        "type": "address"
+                    }
+                ],
+                "name": "updateAllowanceAggregator",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_router": "0x6088d94C5a40CEcd3ae2D4e0710cA687b91c61d0",
+                "_allowanceAggregator": "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58"
             }
         }
     ]

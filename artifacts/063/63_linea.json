@@ -1,14 +1,14 @@
 {
     "version": "1.0",
-    "chainId": "1",
-    "createdAt": 1752079503983,
+    "chainId": "59144",
+    "createdAt": 1752099391499,
     "meta": {
         "name": "Transactions Batch",
         "description": "",
         "txBuilderVersion": "1.18.0",
-        "createdFromSafeAddress": "0x6bec1faF33183e1Bc316984202eCc09d46AC92D5",
+        "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
         "createdFromOwnerAddress": "",
-        "checksum": "0xe05bbd0c2ee51c72ebae5feb3e41ce07ccd7c53cc4dfd01fd263661ed715aec0"
+        "checksum": "0x44e0d5ef2b9e0ba407ef94563808523832bf419e9c184be6a0b839a5b0a5a949"
     },
     "transactions": [
         {
@@ -344,7 +344,7 @@
                 "payable": false
             },
             "contractInputsValues": {
-                "_srcSwapRouter": "0x6088d94C5a40CEcd3ae2D4e0710cA687b91c61d0",
+                "_srcSwapRouter": "0x06f183D52D92c13a5f2B989B8710BA7F00bd6f87",
                 "_isSupported": "true"
             }
         },
@@ -369,7 +369,7 @@
                 "payable": false
             },
             "contractInputsValues": {
-                "_srcSwapRouter": "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f",
+                "_srcSwapRouter": "0x57df6092665eb6058DE53939612413ff4B09114E",
                 "_isSupported": "true"
             }
         },
@@ -394,33 +394,8 @@
                 "payable": false
             },
             "contractInputsValues": {
-                "_router": "0x6088d94C5a40CEcd3ae2D4e0710cA687b91c61d0",
-                "_allowanceAggregator": "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f"
-            }
-        },
-        {
-            "to": "0xE4427af3555CD9303D728C491364FAdFDD7494Fe",
-            "value": "0",
-            "data": null,
-            "contractMethod": {
-                "inputs": [
-                    {
-                        "internalType": "contract TransparentUpgradeableProxy",
-                        "name": "proxy",
-                        "type": "address"
-                    },
-                    {
-                        "internalType": "address",
-                        "name": "implementation",
-                        "type": "address"
-                    }
-                ],
-                "name": "upgrade",
-                "payable": false
-            },
-            "contractInputsValues": {
-                "proxy": "0x2328Ee20fA271073328DC94e52Dd5b61aa0C91A7",
-                "implementation": "0xDdF80e5f85443AC9041e42F64C8F41482F6380CF"
+                "_router": "0x06f183D52D92c13a5f2B989B8710BA7F00bd6f87",
+                "_allowanceAggregator": "0x57df6092665eb6058DE53939612413ff4B09114E"
             }
         }
     ]

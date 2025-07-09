@@ -1,14 +1,14 @@
 {
     "version": "1.0",
-    "chainId": "1",
-    "createdAt": 1752079503983,
+    "chainId": "43114",
+    "createdAt": 1752099173902,
     "meta": {
         "name": "Transactions Batch",
         "description": "",
         "txBuilderVersion": "1.18.0",
-        "createdFromSafeAddress": "0x6bec1faF33183e1Bc316984202eCc09d46AC92D5",
+        "createdFromSafeAddress": "0x8AC842e8f3be6BF67ccfdC87CE3F98D635008Ef0",
         "createdFromOwnerAddress": "",
-        "checksum": "0xe05bbd0c2ee51c72ebae5feb3e41ce07ccd7c53cc4dfd01fd263661ed715aec0"
+        "checksum": "0x7c48b1e7bc13a1be99e7f3557e64fe2c5433ae4bfc0a65075642155d69ead8c4"
     },
     "transactions": [
         {
@@ -344,7 +344,7 @@
                 "payable": false
             },
             "contractInputsValues": {
-                "_srcSwapRouter": "0x6088d94C5a40CEcd3ae2D4e0710cA687b91c61d0",
+                "_srcSwapRouter": "0x9b9efa5Efa731EA9Bbb0369E91fA17Abf249CFD4",
                 "_isSupported": "true"
             }
         },
@@ -394,33 +394,8 @@
                 "payable": false
             },
             "contractInputsValues": {
-                "_router": "0x6088d94C5a40CEcd3ae2D4e0710cA687b91c61d0",
+                "_router": "0x9b9efa5Efa731EA9Bbb0369E91fA17Abf249CFD4",
                 "_allowanceAggregator": "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f"
-            }
-        },
-        {
-            "to": "0xE4427af3555CD9303D728C491364FAdFDD7494Fe",
-            "value": "0",
-            "data": null,
-            "contractMethod": {
-                "inputs": [
-                    {
-                        "internalType": "contract TransparentUpgradeableProxy",
-                        "name": "proxy",
-                        "type": "address"
-                    },
-                    {
-                        "internalType": "address",
-                        "name": "implementation",
-                        "type": "address"
-                    }
-                ],
-                "name": "upgrade",
-                "payable": false
-            },
-            "contractInputsValues": {
-                "proxy": "0x2328Ee20fA271073328DC94e52Dd5b61aa0C91A7",
-                "implementation": "0xDdF80e5f85443AC9041e42F64C8F41482F6380CF"
             }
         }
     ]
