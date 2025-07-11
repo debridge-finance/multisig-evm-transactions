@@ -1,0 +1,402 @@
+{
+    "version": "1.0",
+    "chainId": "137",
+    "createdAt": 1752098149108,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.18.0",
+        "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
+        "createdFromOwnerAddress": "",
+        "checksum": "0x09d576e8e6279a52dcb04d01cc2378e9669f6d9bf99fb40e39cf1ac64bf041f3"
+    },
+    "transactions": [
+        {
+            "to": "0xE4427af3555CD9303D728C491364FAdFDD7494Fe",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "contract TransparentUpgradeableProxy",
+                        "name": "proxy",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "implementation",
+                        "type": "address"
+                    }
+                ],
+                "name": "upgrade",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "proxy": "0xC2bAC0DB5B18B0c3225581Ba14BD0B448c623636",
+                "implementation": "0xa1cc7E623423169e1C10e6e5CC8Ae6f1d11042DE"
+            }
+        },
+        {
+            "to": "0xC2bAC0DB5B18B0c3225581Ba14BD0B448c623636",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "bytes32",
+                        "name": "role",
+                        "type": "bytes32"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "account",
+                        "type": "address"
+                    }
+                ],
+                "name": "grantRole",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "role": "0x2dca0f5ce7e75a4b43fe2b0d6f5d0b7a2bf92ecf89f8f0aa17b8308b67038821",
+                "account": "0x391276932b5105C2DB8eE928dfd8872564d6d246"
+            }
+        },
+        {
+            "to": "0xA7b88A746FA457578D5abd6234471f07D895F46b",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "contract TransparentUpgradeableProxy",
+                        "name": "proxy",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "implementation",
+                        "type": "address"
+                    }
+                ],
+                "name": "upgrade",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "proxy": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+                "implementation": "0xbF20cB9614a0059bBe4b599d1D04358aFe31eDfb"
+            }
+        },
+        {
+            "to": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "bytes32",
+                        "name": "role",
+                        "type": "bytes32"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "account",
+                        "type": "address"
+                    }
+                ],
+                "name": "grantRole",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "role": "0x2dca0f5ce7e75a4b43fe2b0d6f5d0b7a2bf92ecf89f8f0aa17b8308b67038821",
+                "account": "0x391276932b5105C2DB8eE928dfd8872564d6d246"
+            }
+        },
+        {
+            "to": "0xA7b88A746FA457578D5abd6234471f07D895F46b",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "contract TransparentUpgradeableProxy",
+                        "name": "proxy",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "implementation",
+                        "type": "address"
+                    }
+                ],
+                "name": "upgrade",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "proxy": "0x61eF2e01E603aEB5Cd96F9eC9AE76cc6A68f6cF9",
+                "implementation": "0x7EA200f06c17cB9f64A3c8973a76DD8359fd68FA"
+            }
+        },
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "_chainId",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isChainFrom",
+                        "type": "bool"
+                    }
+                ],
+                "name": "setChainSupport",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainId": "100000026",
+                "_isSupported": "true",
+                "_isChainFrom": "true"
+            }
+        },
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "_chainId",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isChainFrom",
+                        "type": "bool"
+                    }
+                ],
+                "name": "setChainSupport",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainId": "100000026",
+                "_isSupported": "true",
+                "_isChainFrom": "false"
+            }
+        },
+        {
+            "to": "0xE7351Fd770A37282b91D153Ee690B63579D6dd7f",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "_chainIdFrom",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bytes",
+                        "name": "_dlnSourceAddress",
+                        "type": "bytes"
+                    },
+                    {
+                        "internalType": "enum DlnOrderLib.ChainEngine",
+                        "name": "_chainEngine",
+                        "type": "uint8"
+                    }
+                ],
+                "name": "setDlnSourceAddress",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainIdFrom": "100000026",
+                "_dlnSourceAddress": "0xE6f924E3C42350684aF70F798c3cA2533A4c5Bd0",
+                "_chainEngine": "1"
+            }
+        },
+        {
+            "to": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "_chainIdTo",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bytes",
+                        "name": "_dlnDestinationAddress",
+                        "type": "bytes"
+                    },
+                    {
+                        "internalType": "enum DlnOrderLib.ChainEngine",
+                        "name": "_chainEngine",
+                        "type": "uint8"
+                    }
+                ],
+                "name": "setDlnDestinationAddress",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainIdTo": "100000026",
+                "_dlnDestinationAddress": "0xe8E2948B1E24E05C017aca0dCe44630595c464eb",
+                "_chainEngine": "1"
+            }
+        },
+        {
+            "to": "0xC86ab72dc6da7eF91a96650f3BC23125cD997130",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "contract TransparentUpgradeableProxy",
+                        "name": "proxy",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "implementation",
+                        "type": "address"
+                    }
+                ],
+                "name": "upgrade",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "proxy": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+                "implementation": "0x3c857eD51c8a2747EE8c6F30EdDA5ea0D487CC64"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_feeTreasury",
+                        "type": "address"
+                    }
+                ],
+                "name": "updateFeeTreasury",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_feeTreasury": "0x391276932b5105C2DB8eE928dfd8872564d6d246"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "uint16",
+                        "name": "_swapVariableFeeBps",
+                        "type": "uint16"
+                    }
+                ],
+                "name": "updateSwapVariableFeeBps",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_swapVariableFeeBps": "8"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0x9b9efa5Efa731EA9Bbb0369E91fA17Abf249CFD4",
+                "_isSupported": "true"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0x3B86917369B83a6892f553609F3c2F439C184e31",
+                "_isSupported": "true"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_router",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_allowanceAggregator",
+                        "type": "address"
+                    }
+                ],
+                "name": "updateAllowanceAggregator",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_router": "0x9b9efa5Efa731EA9Bbb0369E91fA17Abf249CFD4",
+                "_allowanceAggregator": "0x3B86917369B83a6892f553609F3c2F439C184e31"
+            }
+        }
+    ]
+}
