@@ -1,0 +1,65 @@
+{
+    "version": "1.0",
+    "chainId": "1",
+    "createdAt": 1754654713527,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.18.0",
+        "createdFromSafeAddress": "0x6bec1faF33183e1Bc316984202eCc09d46AC92D5",
+        "createdFromOwnerAddress": "",
+        "checksum": "0xff895c108cf9229a5a7537929429f0dcbe4efb7e093ed03557b427cdf01e6f9b"
+    },
+    "transactions": [
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0xC87De04e2EC1F4282dFF2933A2D58199f688fC3d",
+                "_isSupported": "true"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0xbbbbbBB520d69a9775E85b458C58c648259FAD5F",
+                "_isSupported": "true"
+            }
+        }
+    ]
+}

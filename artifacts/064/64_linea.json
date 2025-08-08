@@ -1,0 +1,40 @@
+{
+    "version": "1.0",
+    "chainId": "59144",
+    "createdAt": 1754656570879,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.18.0",
+        "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
+        "createdFromOwnerAddress": "",
+        "checksum": "0xc14f707afcf417eab548b79273ba182bc76cfb1e57fcc47d7613ba8221a202c8"
+    },
+    "transactions": [
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0x2fF506ed9729580EF8Bf04429614beB1baE5F76D",
+                "_isSupported": "true"
+            }
+        }
+    ]
+}

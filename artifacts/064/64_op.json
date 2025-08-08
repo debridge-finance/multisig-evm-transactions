@@ -1,0 +1,65 @@
+{
+    "version": "1.0",
+    "chainId": "10",
+    "createdAt": 1754656819838,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.18.0",
+        "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
+        "createdFromOwnerAddress": "",
+        "checksum": "0x500f89bdd9d2c6a6cf4f229f1cca82d546ed33b86774743fc41608eb2a2bf625"
+    },
+    "transactions": [
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0xa575f37e869e6887564F87c07e2885e08D542C4a",
+                "_isSupported": "true"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0xbbbbbBB520d69a9775E85b458C58c648259FAD5F",
+                "_isSupported": "true"
+            }
+        }
+    ]
+}
