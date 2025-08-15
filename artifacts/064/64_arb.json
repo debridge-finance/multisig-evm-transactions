@@ -1,14 +1,14 @@
 {
     "version": "1.0",
     "chainId": "42161",
-    "createdAt": 1754656135310,
+    "createdAt": 1755113656911,
     "meta": {
         "name": "Transactions Batch",
         "description": "",
         "txBuilderVersion": "1.18.0",
         "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
         "createdFromOwnerAddress": "",
-        "checksum": "0x555e49c716eb8993eed8fc56b3f7b6ba398d09d6341f5b4b8c9918db5e8317b7"
+        "checksum": "0x993e1cc943dadec4d5f012fb5bdc1049746a4681c21d206daf6c50ab55718748"
     },
     "transactions": [
         {
@@ -57,8 +57,33 @@
                 "payable": false
             },
             "contractInputsValues": {
-                "_srcSwapRouter": "0xbbbbbBB520d69a9775E85b458C58c648259FAD5F",
+                "_srcSwapRouter": "0x5e2F47bD7D4B357fCfd0Bb224Eb665773B1B9801",
                 "_isSupported": "true"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_router",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_allowanceAggregator",
+                        "type": "address"
+                    }
+                ],
+                "name": "updateAllowanceAggregator",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_router": "0x5e2F47bD7D4B357fCfd0Bb224Eb665773B1B9801",
+                "_allowanceAggregator": "0x70cBb871E8f30Fc8Ce23609E9E0Ea87B6b222F58"
             }
         }
     ]
