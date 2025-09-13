@@ -1,0 +1,40 @@
+{
+    "version": "1.0",
+    "chainId": "1",
+    "createdAt": 1757799503090,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.18.2",
+        "createdFromSafeAddress": "0x6bec1faF33183e1Bc316984202eCc09d46AC92D5",
+        "createdFromOwnerAddress": "",
+        "checksum": "0xb982a6e0763008b0f2b61a16fed0c0ac37804c059c626c48f112ba00651a484a"
+    },
+    "transactions": [
+        {
+            "to": "0xA7b88A746FA457578D5abd6234471f07D895F46b",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "contract TransparentUpgradeableProxy",
+                        "name": "proxy",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "implementation",
+                        "type": "address"
+                    }
+                ],
+                "name": "upgrade",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "proxy": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+                "implementation": "0xe13a85137f8752AbE4c5A614Dc3BaF396b00308D"
+            }
+        }
+    ]
+}
