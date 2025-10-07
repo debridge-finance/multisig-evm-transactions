@@ -1,0 +1,108 @@
+{
+    "version": "1.0",
+    "chainId": "250",
+    "createdAt": 1759836842642,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.17.0",
+        "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
+        "createdFromOwnerAddress": "",
+        "checksum": "0x81f4a6a0c3b919d2331fbafbb51a64552772d6755cc236e2273d1a544497530d"
+    },
+    "transactions": [
+        {
+            "to": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address[]",
+                        "name": "_tokens",
+                        "type": "address[]"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_beneficiary",
+                        "type": "address"
+                    }
+                ],
+                "name": "withdrawFee",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_tokens": "[\"0x0000000000000000000000000000000000000000\",\"0x2f733095b80a04b38b0d10cc884524a3d09b836a\",\"0x049d68029688eabf473097a2fc38ef61633a3c7a\",\"0x04068da6c83afcfa0e13ba15a6696662335d5b75\"]",
+                "_beneficiary": "0x391276932b5105C2DB8eE928dfd8872564d6d246"
+            }
+        },
+        {
+            "to": "0xC2bAC0DB5B18B0c3225581Ba14BD0B448c623636",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [],
+                "name": "withdrawNativeFee",
+                "payable": false
+            },
+            "contractInputsValues": null
+        },
+        {
+            "to": "0xC2bAC0DB5B18B0c3225581Ba14BD0B448c623636",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_tokenAddress",
+                        "type": "address"
+                    }
+                ],
+                "name": "withdrawFee",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_tokenAddress": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83"
+            }
+        },
+        {
+            "to": "0xC2bAC0DB5B18B0c3225581Ba14BD0B448c623636",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_tokenAddress",
+                        "type": "address"
+                    }
+                ],
+                "name": "withdrawFee",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_tokenAddress": "0x28a92dde19D9989F39A49905d7C9C2FAc7799bDf"
+            }
+        },
+        {
+            "to": "0xC2bAC0DB5B18B0c3225581Ba14BD0B448c623636",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_tokenAddress",
+                        "type": "address"
+                    }
+                ],
+                "name": "withdrawFee",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_tokenAddress": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75"
+            }
+        }
+    ]
+}
