@@ -1,14 +1,14 @@
 {
     "version": "1.0",
     "chainId": "1",
-    "createdAt": 1764349478116,
+    "createdAt": 1764365088206,
     "meta": {
         "name": "Transactions Batch",
         "description": "",
         "txBuilderVersion": "1.18.2",
         "createdFromSafeAddress": "0x6bec1faF33183e1Bc316984202eCc09d46AC92D5",
         "createdFromOwnerAddress": "",
-        "checksum": "0xe364604c4e084f965d870c5b7c4ba7b786eda7628fe7d694ee19412a4ae14630"
+        "checksum": "0x983f6b7291daff76be5cfbcb85e6c6efaedb21c32f509973ece64c421eeb896e"
     },
     "transactions": [
         {
@@ -332,6 +332,31 @@
             "contractInputsValues": {
                 "_router": "0xF6801D319497789f934ec7F83E142a9536312B08",
                 "_allowanceAggregator": "0x40aA958dd87FC8305b97f2BA922CDdCa374bcD7f"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0xae4247070946fD1816Df5E86F385863FFC5f4637",
+                "_isSupported": "true"
             }
         }
     ]
