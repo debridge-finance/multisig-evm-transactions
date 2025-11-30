@@ -1,4 +1,4 @@
-# withdraw_fantom_fee. 🟡 Withdraw Fantom fee
+# withdraw_fantom_fee. ✅ Withdraw Fantom fee
 Date of creation: 07.10.2025
 
 #### Withdraw fee from deBridgeGate
@@ -38,6 +38,6 @@ data to sign:
 
 ```
 
-### 🟡 Fantom
+### ✅ Fantom
 [Gnosis Safe Tx](https://safe.fantom.network/transactions/tx?id=multisig_0xA52842cD43fA8c4B6660E443194769531d45b265_0x8f8d53a5a723a750ee178859489666e0d2a7364a5b919f1da1478f76436deec2&safe=ftm:0xA52842cD43fA8c4B6660E443194769531d45b265).   
-[Executed]()     
+[Executed](https://explorer.fantom.network/transactions/0xdc81bf10c9165fe963842f8746e379393878794a7846a81e3b62216380ef098d)     
