@@ -1,14 +1,14 @@
 {
     "version": "1.0",
-    "chainId": "1",
-    "createdAt": 1764349478116,
+    "chainId": "10",
+    "createdAt": 1764771740342,
     "meta": {
         "name": "Transactions Batch",
         "description": "",
         "txBuilderVersion": "1.18.2",
-        "createdFromSafeAddress": "0x6bec1faF33183e1Bc316984202eCc09d46AC92D5",
+        "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
         "createdFromOwnerAddress": "",
-        "checksum": "0xe364604c4e084f965d870c5b7c4ba7b786eda7628fe7d694ee19412a4ae14630"
+        "checksum": "0x6bfc606730e246ba1b2fccdabc2f13892bac43d3be6fbb7e5ae655f92a5006ba"
     },
     "transactions": [
         {
@@ -332,6 +332,81 @@
             "contractInputsValues": {
                 "_router": "0xC44C6550a3B13116F6fD593e1ec963d5aE78C4C8",
                 "_allowanceAggregator": "0x68D6B739D2020067D1e2F713b999dA97E4d54812"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_srcSwapRouter",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "_isSupported",
+                        "type": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0x6733Eb2E75B1625F1Fe5f18aD2cB2BaBDA510d19",
+                "_isSupported": "true"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_router",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_allowanceAggregator",
+                        "type": "address"
+                    }
+                ],
+                "name": "updateAllowanceAggregator",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_router": "0x6733Eb2E75B1625F1Fe5f18aD2cB2BaBDA510d19",
+                "_allowanceAggregator": "0x68D6B739D2020067D1e2F713b999dA97E4d54812"
+            }
+        },
+        {
+            "to": "0xA7b88A746FA457578D5abd6234471f07D895F46b",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "contract TransparentUpgradeableProxy",
+                        "name": "proxy",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "implementation",
+                        "type": "address"
+                    }
+                ],
+                "name": "upgrade",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "proxy": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+                "implementation": "0x322B481088143d9Ff74e4169Fb7f12F7808690DF"
             }
         }
     ]
