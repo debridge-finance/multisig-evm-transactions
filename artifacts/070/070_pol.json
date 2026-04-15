@@ -1,0 +1,65 @@
+{
+    "version": "1.0",
+    "chainId": "137",
+    "createdAt": 1776266330491,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "2.0.0",
+        "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
+        "createdFromOwnerAddress": "",
+        "checksum": "0xd263a7ed5a8dcd12a0af8238d6757c57eccfa50dd9de4a3abf2789205fcd7a0a"
+    },
+    "transactions": [
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_srcSwapRouter",
+                        "type": "address",
+                        "internalType": "address"
+                    },
+                    {
+                        "name": "_isSupported",
+                        "type": "bool",
+                        "internalType": "bool"
+                    }
+                ],
+                "name": "updateSupportedRouter",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_srcSwapRouter": "0xF6E1B4b201e220FC3741bd7a75675ffEA25c02AD",
+                "_isSupported": "true"
+            }
+        },
+        {
+            "to": "0x663DC15D3C1aC63ff12E45Ab68FeA3F0a883C251",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_router",
+                        "type": "address",
+                        "internalType": "address"
+                    },
+                    {
+                        "name": "_allowanceAggregator",
+                        "type": "address",
+                        "internalType": "address"
+                    }
+                ],
+                "name": "updateAllowanceAggregator",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_router": "0xF6E1B4b201e220FC3741bd7a75675ffEA25c02AD",
+                "_allowanceAggregator": "0x3B86917369B83a6892f553609F3c2F439C184e31"
+            }
+        }
+    ]
+}
