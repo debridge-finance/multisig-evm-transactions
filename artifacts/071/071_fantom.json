@@ -1,0 +1,123 @@
+{
+    "version": "1.0",
+    "chainId": "250",
+    "createdAt": 1782134308737,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.17.0",
+        "createdFromSafeAddress": "0xA52842cD43fA8c4B6660E443194769531d45b265",
+        "createdFromOwnerAddress": "",
+        "checksum": "0x11f4db95a818ccdd4a9b4697badf8c2277a5df59a8055f64a7c4642365750989"
+    },
+    "transactions": [
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "bytes32",
+                        "name": "role",
+                        "type": "bytes32"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "account",
+                        "type": "address"
+                    }
+                ],
+                "name": "grantRole",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "role": "0x2B36FA99E118FA8485D488BECF749A974743FBEB6A7AA57E663893BF5D69A3C1",
+                "account": "0xA52842cD43fA8c4B6660E443194769531d45b265"
+            }
+        },
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [],
+                "name": "pause",
+                "payable": false
+            },
+            "contractInputsValues": null
+        },
+        {
+            "to": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "bytes32",
+                        "name": "role",
+                        "type": "bytes32"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "account",
+                        "type": "address"
+                    }
+                ],
+                "name": "grantRole",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "role": "0x2B36FA99E118FA8485D488BECF749A974743FBEB6A7AA57E663893BF5D69A3C1",
+                "account": "0xA52842cD43fA8c4B6660E443194769531d45b265"
+            }
+        },
+        {
+            "to": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [],
+                "name": "pause",
+                "payable": false
+            },
+            "contractInputsValues": null
+        },
+        {
+            "to": "0xE7351Fd770A37282b91D153Ee690B63579D6dd7f",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "bytes32",
+                        "name": "role",
+                        "type": "bytes32"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "account",
+                        "type": "address"
+                    }
+                ],
+                "name": "grantRole",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "role": "0x2B36FA99E118FA8485D488BECF749A974743FBEB6A7AA57E663893BF5D69A3C1",
+                "account": "0xA52842cD43fA8c4B6660E443194769531d45b265"
+            }
+        },
+        {
+            "to": "0xE7351Fd770A37282b91D153Ee690B63579D6dd7f",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [],
+                "name": "pause",
+                "payable": false
+            },
+            "contractInputsValues": null
+        }
+    ]
+}
