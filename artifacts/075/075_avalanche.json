@@ -1,0 +1,325 @@
+{
+    "version": "1.0",
+    "chainId": "43114",
+    "createdAt": 1793011227839,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "2.1.0",
+        "createdFromSafeAddress": "0x8AC842e8f3be6BF67ccfdC87CE3F98D635008Ef0",
+        "createdFromOwnerAddress": "",
+        "checksum": "0x7f521b985bc096ae11c360b46abd898bdf47d7aa0d84fe2dcb72be45eaa76b62"
+    },
+    "transactions": [
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainId",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_isSupported",
+                        "type": "bool",
+                        "internalType": "bool"
+                    },
+                    {
+                        "name": "_isChainFrom",
+                        "type": "bool",
+                        "internalType": "bool"
+                    }
+                ],
+                "name": "setChainSupport",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainId": "196",
+                "_isSupported": "true",
+                "_isChainFrom": "true"
+            }
+        },
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainId",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_isSupported",
+                        "type": "bool",
+                        "internalType": "bool"
+                    },
+                    {
+                        "name": "_isChainFrom",
+                        "type": "bool",
+                        "internalType": "bool"
+                    }
+                ],
+                "name": "setChainSupport",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainId": "196",
+                "_isSupported": "true",
+                "_isChainFrom": "false"
+            }
+        },
+        {
+            "to": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainIdTo",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_dlnDestinationAddress",
+                        "type": "bytes",
+                        "internalType": "bytes"
+                    },
+                    {
+                        "name": "_chainEngine",
+                        "type": "uint8",
+                        "internalType": "enum DlnOrderLib.ChainEngine"
+                    }
+                ],
+                "name": "setDlnDestinationAddress",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainIdTo": "196",
+                "_dlnDestinationAddress": "0xE7351Fd770A37282b91D153Ee690B63579D6dd7f",
+                "_chainEngine": "1"
+            }
+        },
+        {
+            "to": "0xE7351Fd770A37282b91D153Ee690B63579D6dd7f",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainIdFrom",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_dlnSourceAddress",
+                        "type": "bytes",
+                        "internalType": "bytes"
+                    },
+                    {
+                        "name": "_chainEngine",
+                        "type": "uint8",
+                        "internalType": "enum DlnOrderLib.ChainEngine"
+                    }
+                ],
+                "name": "setDlnSourceAddress",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainIdFrom": "196",
+                "_dlnSourceAddress": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+                "_chainEngine": "1"
+            }
+        },
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainId",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_isSupported",
+                        "type": "bool",
+                        "internalType": "bool"
+                    },
+                    {
+                        "name": "_isChainFrom",
+                        "type": "bool",
+                        "internalType": "bool"
+                    }
+                ],
+                "name": "setChainSupport",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainId": "100000009",
+                "_isSupported": "false",
+                "_isChainFrom": "true"
+            }
+        },
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainId",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_isSupported",
+                        "type": "bool",
+                        "internalType": "bool"
+                    },
+                    {
+                        "name": "_isChainFrom",
+                        "type": "bool",
+                        "internalType": "bool"
+                    }
+                ],
+                "name": "setChainSupport",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainId": "100000009",
+                "_isSupported": "false",
+                "_isChainFrom": "false"
+            }
+        },
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainId",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_isSupported",
+                        "type": "bool",
+                        "internalType": "bool"
+                    },
+                    {
+                        "name": "_isChainFrom",
+                        "type": "bool",
+                        "internalType": "bool"
+                    }
+                ],
+                "name": "setChainSupport",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainId": "100000027",
+                "_isSupported": "false",
+                "_isChainFrom": "true"
+            }
+        },
+        {
+            "to": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainId",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_isSupported",
+                        "type": "bool",
+                        "internalType": "bool"
+                    },
+                    {
+                        "name": "_isChainFrom",
+                        "type": "bool",
+                        "internalType": "bool"
+                    }
+                ],
+                "name": "setChainSupport",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainId": "100000027",
+                "_isSupported": "false",
+                "_isChainFrom": "false"
+            }
+        },
+        {
+            "to": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainIdTo",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_dlnDestinationAddress",
+                        "type": "bytes",
+                        "internalType": "bytes"
+                    },
+                    {
+                        "name": "_chainEngine",
+                        "type": "uint8",
+                        "internalType": "enum DlnOrderLib.ChainEngine"
+                    }
+                ],
+                "name": "setDlnDestinationAddress",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainIdTo": "100000009",
+                "_dlnDestinationAddress": "0x",
+                "_chainEngine": "1"
+            }
+        },
+        {
+            "to": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "name": "_chainIdTo",
+                        "type": "uint256",
+                        "internalType": "uint256"
+                    },
+                    {
+                        "name": "_dlnDestinationAddress",
+                        "type": "bytes",
+                        "internalType": "bytes"
+                    },
+                    {
+                        "name": "_chainEngine",
+                        "type": "uint8",
+                        "internalType": "enum DlnOrderLib.ChainEngine"
+                    }
+                ],
+                "name": "setDlnDestinationAddress",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_chainIdTo": "100000027",
+                "_dlnDestinationAddress": "0x",
+                "_chainEngine": "1"
+            }
+        }
+    ]
+}
